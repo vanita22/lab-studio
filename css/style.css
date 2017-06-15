@@ -1,11 +1,10 @@
-body{
+#uno{
 	background-image: url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: static;
+	position: fixed;
 	width: 100%;
-	height: 130vh;
-	display: flex;
+	height: 100vh;
 	color: white;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif; 
@@ -24,12 +23,16 @@ body{
 /*caja uno*/
 
 #caja1{
-	top: 350px;
-	left: 200px;
+	top: 150px;
+	left: 30px;
+	bottom: 170px;
+	background-position: absolute;	
+	flex-direction: column;
 }
 
 #boton{
 	background-color: #F7FE2E;
+	width: 150px;
 	padding: 15px 20px;
 	border-radius: 2px;
 	color: white;	
@@ -47,20 +50,24 @@ body{
 /*caja dos servicios*/
 
 #servicios{
-	background-color: white;
-	display: flex;
+	background-color: white;	
 	position: absolute;
 	width: 100%;
 	height: auto;
-	top: 1000px;
+	padding: 60px;
+	top: 600px;
 	flex-direction: column;
 	align-content: center;
+}
+
+#caja{
+	margin-top: 40px;
 }
 
 .circulo{
 	position: relative;
 	border-radius: 40px;
-	border: 40px solid yellow;
+	border: 40px solid #FACC2E;
 	width: 50px;
 	height: 50px;
 }
@@ -73,13 +80,120 @@ body{
 
 #servicios i{
 	font-size: 40px;
-	margin-right: 50px;
+	margin-left: -21px;
 	margin-top: -21px;
 }
 
 #caja2{
-	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-right: 25px;
+	margin-left: 30px;
 }
+
+#servicios h4{
+	font-weight: bold;
+}
+
+/*caja tres portafolio*/
+
+#portafolio{
+	background-color: #E6E6E6;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 1100px;
+	padding: 60px;
+	flex-direction: column;
+	align-content: center;
+}
+
+#caja3{
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+#caja4{
+	margin-top: 40px;
+
+}
+
+#cajacolor{
+	background-color: white;
+	width: 305px;
+	margin-top: -1px;
+	padding: 3px;		
+}
+
+#portafolio img{
+	width: 300px;
+	height: 250px;
+}
+
+#portafolio img{
+	margin-top: 20px;
+}
+
+/*caja cuatro about*/
+
+#about{
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 2060px;
+	margin-bottom: 100px;
+	padding: 10px;
+	flex-direction: column;	
+}
+
+#caja5{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	
+}
+
+#caja6{
+	margin-top: 80px;	
+}
+
+.circulo2{
+	border-radius: 100px;
+	background-color: yellow;
+	width: 200px;
+	height: 200px;	
+}
+
+#color2{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+ /*caja cinco amazing*/
+
+ #amazing{
+	background-color: #E6E6E6;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 3630px;
+	padding: 10px;
+	flex-direction: column;	
+}
+
+.circulo1{
+	background-color: black;
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+}
+
+.imagenes{
+	flex-grow: row wrap;
+}
+
+
+
+
 
 
 

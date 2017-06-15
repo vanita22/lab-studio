@@ -267,12 +267,14 @@
 	background-color: white;	
 	width: 100%;
 	height: auto;
-	padding: 30px; 
+	margin-top: 0px;
+	padding: 1px;
+	 
 }
 
 #caja11{
 	display: inline-flex;
-	align-content: center;
+	align-content: center;	
+	padding: 16px;
 }
-
 

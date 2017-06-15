@@ -32,7 +32,7 @@
 
 #boton{
 	background-color: #F7FE2E;
-	width: 150px;
+	width: 200px;
 	padding: 15px 20px;
 	border-radius: 2px;
 	color: white;	
@@ -216,6 +216,44 @@
 	margin-right: 100px;
 	margin-left: 50px;
 	padding: 0 10px;
+}
+
+/*caja siete contacto*/
+
+#caja8{
+	background-image: url(../img/map-image.png);
+	background-color: black;
+	margin-top: 100px;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 4400px;
+}
+
+#caja9{
+	background-image: url(../img/map-image.png);
+	background-color: black;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	color: white;
+}
+
+#cajita{
+	background-image: url(../img/map-image.png);
+	background-color: black;
+}
+
+#caja10{
+	background-image: url(../img/map-image.png);
+	background-color: black;
+}
+
+#caja10 span{
+	width: 230px;
+	margin-top: 40px;
+	font-size: 20px;
+	margin-bottom: 70px;
 }
 
 

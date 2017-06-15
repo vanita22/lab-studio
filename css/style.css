@@ -146,6 +146,10 @@
 	flex-direction: column;	
 }
 
+#about img{
+	border: 5px solid #E6E6E6;
+}
+
 #caja5{
 	margin-top: 80px;
 	margin-bottom: 50px;
@@ -161,6 +165,7 @@
 	background-color: yellow;
 	width: 200px;
 	height: 200px;	
+	border: 5px solid #E6E6E6;
 }
 
 #color2{
@@ -227,7 +232,7 @@
 	padding: 20px;
 	color: white;
 	font-weight: bold;
-	margin-top: 4400px;
+	margin-top: 4320px;
 }
 
 #caja9{
@@ -256,6 +261,18 @@
 	margin-bottom: 70px;
 }
 
+/*pie de página*/
 
+#pie{
+	background-color: white;	
+	width: 100%;
+	height: auto;
+	padding: 30px; 
+}
+
+#caja11{
+	display: inline-flex;
+	align-content: center;
+}
 
 

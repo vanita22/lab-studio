@@ -170,13 +170,13 @@
 }
  /*caja cinco amazing*/
 
- #amazing{
+#amazing{
 	background-color: #E6E6E6;
 	position: absolute;
 	width: 100%;
 	height: auto;
 	top: 3630px;
-	padding: 10px;
+	padding: 40px;
 	flex-direction: column;	
 }
 
@@ -185,14 +185,38 @@
 	width: 25px;
 	height: 25px;
 	border-radius: 50px;
+	margin-right: 10px;
+	margin-left: 10px;	
 }
 
 .imagenes{
-	flex-grow: row wrap;
+	display: inline-flex;
+	flex-flow: row wrap;
+	margin-right: 10px;
 }
 
+#amazing img{
+	border: 5px solid white;
+}
 
+/*caja seis corporativo*/
 
+ #corporativo{
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 4228px;
+	padding: 30px;
+	display: inline-flex;	
+}
+
+#corporativo img{
+	display: inline-flex;
+	margin-right: 100px;
+	margin-left: 50px;
+	padding: 0 10px;
+}
 
 
 

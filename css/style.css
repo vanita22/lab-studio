@@ -2,7 +2,7 @@
 	background-image: url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: fixed;
+	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
 	color: white;
@@ -26,7 +26,7 @@
 	top: 150px;
 	left: 30px;
 	bottom: 170px;
-	background-position: absolute;	
+	background-position: relative;	
 	flex-direction: column;
 }
 
@@ -51,17 +51,23 @@
 
 #servicios{
 	background-color: white;	
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: auto;
 	padding: 60px;
-	top: 600px;
+	margin-top: 600px;
 	flex-direction: column;
 	align-content: center;
 }
 
-#caja{
-	margin-top: 40px;
+@media (max-width: 425px){
+	#uno{
+		height: 180vh;
+		width: 100%;
+	}
+	#caja1{
+		margin-left: -5%;
+	}
 }
 
 .circulo{
@@ -75,6 +81,12 @@
 .glyphicon{
 	font-size: 40px;
 	right: 21px;
+	margin-top: -21px;
+}
+
+.circulo i{
+	font-size: 40px;
+	margin-left: -20px;
 	margin-top: -21px;
 }
 
@@ -98,10 +110,9 @@
 
 #portafolio{
 	background-color: #E6E6E6;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: auto;
-	top: 1100px;
 	padding: 60px;
 	flex-direction: column;
 	align-content: center;
@@ -114,14 +125,19 @@
 
 #caja4{
 	margin-top: 40px;
-
 }
 
 #cajacolor{
 	background-color: white;
-	width: 305px;
+	width: 78%;
 	margin-top: -1px;
 	padding: 3px;		
+}
+
+@media (max-width: 425px){
+	#cajacolor{
+		width: 100%;
+	}
 }
 
 #portafolio img{
@@ -137,10 +153,9 @@
 
 #about{
 	background-color: white;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: auto;
-	top: 2060px;
 	margin-bottom: 100px;
 	padding: 10px;
 	flex-direction: column;	
@@ -177,10 +192,9 @@
 
 #amazing{
 	background-color: #E6E6E6;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: auto;
-	top: 3630px;
 	padding: 40px;
 	flex-direction: column;	
 }
@@ -191,7 +205,8 @@
 	height: 25px;
 	border-radius: 50px;
 	margin-right: 10px;
-	margin-left: 10px;	
+	margin-left: 10px;
+	margin-bottom: 20px;	
 }
 
 .imagenes{
@@ -208,10 +223,9 @@
 
  #corporativo{
 	background-color: white;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: auto;
-	top: 4228px;
 	padding: 30px;
 	display: inline-flex;	
 }
@@ -225,34 +239,25 @@
 
 /*caja siete contacto*/
 
+
 #caja8{
 	background-image: url(../img/map-image.png);
-	background-color: black;
-	margin-top: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #000;
 	padding: 20px;
 	color: white;
 	font-weight: bold;
-	margin-top: 4320px;
 }
 
-#caja9{
-	background-image: url(../img/map-image.png);
-	background-color: black;
+#caja9{	
 	margin-top: 40px;
 	margin-left: 30px;
 	margin-right: 30px;
-	color: white;
+	
 }
 
-#cajita{
-	background-image: url(../img/map-image.png);
-	background-color: black;
-}
-
-#caja10{
-	background-image: url(../img/map-image.png);
-	background-color: black;
-}
 
 #caja10 span{
 	width: 230px;
@@ -278,3 +283,16 @@
 	padding: 16px;
 }
 
+img{
+	animation-duration: 6s;
+	animation-timing-function: ease;
+}
+
+img:hover{
+	transform: rotateY(60deg);	
+}
+
+.circulo1:hover{
+	animation-duration: 35s;
+	transform: rotateY(150deg); 
+}
